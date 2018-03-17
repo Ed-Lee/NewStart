@@ -61,6 +61,18 @@ h4 {
   }
 }
 
+@media (min-width: 992px) {
+  .col-1-4 {
+    width: 25%;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .col-1-4 {
+    width: 50%;
+  }
+}
+
 @media (max-width: 767px) {
   .col-1-4 {
     width: 100%;
