@@ -61,8 +61,8 @@ h4 {
   }
 }
 
-@media (min-width: 768px) {
+@media (max-width: 767px) {
   .col-1-4 {
-    width: 50%;
+    width: 100%;
   }
 }
